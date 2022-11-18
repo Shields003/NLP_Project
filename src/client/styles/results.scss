@@ -1,0 +1,25 @@
+#Results {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin: 0 auto;
+     padding: 0 1rem;
+     text-align: center;
+ }
+ 
+ #Results strong {
+ color: #ccc;
+ }
+ 
+ .submission-url {
+     font-size: 2em;
+     text-decoration: underline;
+     margin-bottom: 2em;
+ }
+ 
+ #Results article {
+     display:flex;
+     flex-direction: column;
+     gap: 1em;
+ }

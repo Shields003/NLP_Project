@@ -1,0 +1,50 @@
+legend {
+  padding: 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+legend i {
+  vertical-align: sub;
+}
+
+fieldset {
+  border: 2px solid #580101;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+input {
+  padding: 1em;
+  width: 100%;
+  line-height: 2em;
+  border: 1px solid #580101;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  font-family: "Roboto", sans-serif;
+}
+
+input[type="url"] {
+  font-size: 1.5em;
+
+  &.valid {
+    border: rgb(125, 224, 125) solid 2px;
+  }
+  &.invalid {
+    border: red solid 2px;
+  }
+}
+
+in input[type="submit"] {
+  font-size: 1.15em;
+  background-color: rgb(6, 119, 6);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+input[disabled="disabled"] {
+  border: none;
+  background-color: rgb(215, 215, 215);
+  cursor: not-allowed;
+}
